@@ -9,7 +9,7 @@ class SendEmail(Resource):
         send_mail(
             "Teste", 
             config("MAIL_SENDER"), 
-            "mensagem de teste", 
+            "teste", 
         )
         
         return {"success": "ok"}, 200
